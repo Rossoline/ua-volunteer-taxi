@@ -1,12 +1,11 @@
 package taxi.service;
 
+import java.util.List;
+import java.util.Optional;
 import taxi.dao.DriverDao;
 import taxi.lib.Inject;
 import taxi.lib.Service;
 import taxi.model.Driver;
-
-import java.util.List;
-import java.util.Optional;
 
 @Service
 public class DriverServiceImpl implements DriverService {
